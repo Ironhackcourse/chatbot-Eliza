@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliza - Chat</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <!-- Contenedor principal del chat -->
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>🤖 Eliza</h1>
+            <p>Estoy aquí para escucharte</p>
+        </header>
+
+        <!-- Área donde se muestran los mensajes -->
+        <main id="chat-messages" class="chat-messages"></main>
+
+        <!-- Indicador temporal de "Eliza está escribiendo..." -->
+        <div id="typing-indicator" class="typing-indicator hidden">
+            <span class="typing-text">Eliza está escribiendo</span>
+            <span class="dot">.</span>
+            <span class="dot">.</span>
+            <span class="dot">.</span>
+        </div>
+
+        <!-- Formulario de entrada de texto -->
+        <form id="chat-form" class="chat-input-form">
+            <input
+                type="text"
+                id="message-input"
+                placeholder="Escribe tu mensaje..."
+                autocomplete="off"
+            />
+            <button type="submit" id="send-button">Enviar</button>
+        </form>
+    </div>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>

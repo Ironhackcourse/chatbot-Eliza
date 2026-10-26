@@ -1,0 +1,8 @@
+com/chateliza/model/ChatMessage.class
+com/chateliza/repository/ChatRepository.class
+com/chateliza/dto/ChatResponse.class
+com/chateliza/service/ElizaService.class
+com/chateliza/ChatelizaApplication.class
+com/chateliza/config/CorsConfig.class
+com/chateliza/dto/ChatRequest.class
+com/chateliza/controller/ChatController.class

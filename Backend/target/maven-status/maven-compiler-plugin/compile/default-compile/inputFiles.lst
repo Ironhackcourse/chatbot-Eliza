@@ -1,0 +1,8 @@
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/ChatelizaApplication.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/config/CorsConfig.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/controller/ChatController.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/dto/ChatRequest.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/dto/ChatResponse.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/model/ChatMessage.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/repository/ChatRepository.java
+/home/xavier/Documentos/IronHack/ChatEli/Backend/src/main/java/com/chateliza/service/ElizaService.java
